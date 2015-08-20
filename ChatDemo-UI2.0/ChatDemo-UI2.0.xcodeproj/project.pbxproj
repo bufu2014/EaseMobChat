@@ -163,12 +163,24 @@
 		90F1BED51930495800121AEC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F1BED41930495800121AEC /* MobileCoreServices.framework */; };
 		90F3ED471A75F3A4005A0135 /* ChatViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F3ED461A75F3A4005A0135 /* ChatViewController+Category.m */; };
 		C035E8151AEA40F400283EE9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C36CA691A1EDB6200CDDD48 /* CoreData.framework */; };
-		D25787381B43EC5F00B0E69F /* RobotManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D25787371B43EC5F00B0E69F /* RobotManager.m */; };
 		D257873C1B43EC7000B0E69F /* RobotListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D257873B1B43EC7000B0E69F /* RobotListViewController.m */; };
 		D2BF974F1AEB566B009E0D5C /* group_creategroup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2BF974C1AEB566B009E0D5C /* group_creategroup@2x.png */; };
 		D2BF97501AEB566B009E0D5C /* group_header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2BF974D1AEB566B009E0D5C /* group_header@2x.png */; };
 		D2BF97511AEB566B009E0D5C /* group_joinpublicgroup@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2BF974E1AEB566B009E0D5C /* group_joinpublicgroup@2x.png */; };
 		D2BF98B31AEDD780009E0D5C /* EditNicknameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BF98B21AEDD780009E0D5C /* EditNicknameViewController.m */; };
+		D6D64C161B8584E300A8A813 /* UIImageView+HeadImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D64C141B8584E300A8A813 /* UIImageView+HeadImage.m */; };
+		D6D64C191B8584FC00A8A813 /* AppDelegate+Parse.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D64C181B8584FC00A8A813 /* AppDelegate+Parse.m */; };
+		D6D64C1C1B85850D00A8A813 /* UserProfileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D64C1B1B85850D00A8A813 /* UserProfileManager.m */; };
+		D6D64C211B85857500A8A813 /* UserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D64C201B85857500A8A813 /* UserProfileViewController.m */; };
+		D6D64C2A1B85858E00A8A813 /* EMRobotChatTextBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D64C231B85858E00A8A813 /* EMRobotChatTextBubbleView.m */; };
+		D6D64C2B1B85858E00A8A813 /* EMRotbotChatViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D64C251B85858E00A8A813 /* EMRotbotChatViewCell.m */; };
+		D6D64C2C1B85858E00A8A813 /* RobotChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D64C271B85858E00A8A813 /* RobotChatViewController.m */; };
+		D6D64C2D1B85858E00A8A813 /* RobotManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D64C291B85858E00A8A813 /* RobotManager.m */; };
+		D6D64C301B8585A500A8A813 /* UserProfileEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D64C2F1B8585A500A8A813 /* UserProfileEditViewController.m */; };
+		D6D64C331B8585D200A8A813 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D64C311B8585D200A8A813 /* Parse.framework */; };
+		D6D64C341B8585D200A8A813 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D64C321B8585D200A8A813 /* Bolts.framework */; };
+		D6D64C351B8586CA00A8A813 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C3527421931D33A00385240 /* Social.framework */; };
+		D6D64C371B8586D300A8A813 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D64C361B8586D300A8A813 /* Accounts.framework */; };
 		EB1975B21ADE0C77002E7E27 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB1975B11ADE0C77002E7E27 /* libc++.dylib */; };
 		EB19768C1ADE463D002E7E27 /* chatBar_colorMore_videoCall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB19768A1ADE463D002E7E27 /* chatBar_colorMore_videoCall@2x.png */; };
 		EB19768D1ADE463D002E7E27 /* chatBar_colorMore_videoCallSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB19768B1ADE463D002E7E27 /* chatBar_colorMore_videoCallSelected@2x.png */; };
@@ -679,8 +691,6 @@
 		90F1BED41930495800121AEC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		90F3ED451A75F3A4005A0135 /* ChatViewController+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ChatViewController+Category.h"; sourceTree = "<group>"; };
 		90F3ED461A75F3A4005A0135 /* ChatViewController+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ChatViewController+Category.m"; sourceTree = "<group>"; };
-		D25787361B43EC5F00B0E69F /* RobotManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RobotManager.h; sourceTree = "<group>"; };
-		D25787371B43EC5F00B0E69F /* RobotManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RobotManager.m; sourceTree = "<group>"; };
 		D257873A1B43EC7000B0E69F /* RobotListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RobotListViewController.h; sourceTree = "<group>"; };
 		D257873B1B43EC7000B0E69F /* RobotListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RobotListViewController.m; sourceTree = "<group>"; };
 		D2BF974C1AEB566B009E0D5C /* group_creategroup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "group_creategroup@2x.png"; sourceTree = "<group>"; };
@@ -688,6 +698,27 @@
 		D2BF974E1AEB566B009E0D5C /* group_joinpublicgroup@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "group_joinpublicgroup@2x.png"; sourceTree = "<group>"; };
 		D2BF98B11AEDD780009E0D5C /* EditNicknameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditNicknameViewController.h; sourceTree = "<group>"; };
 		D2BF98B21AEDD780009E0D5C /* EditNicknameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditNicknameViewController.m; sourceTree = "<group>"; };
+		D6D64C141B8584E300A8A813 /* UIImageView+HeadImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HeadImage.m"; sourceTree = "<group>"; };
+		D6D64C151B8584E300A8A813 /* UIImageView+HeadImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HeadImage.h"; sourceTree = "<group>"; };
+		D6D64C171B8584FC00A8A813 /* AppDelegate+Parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Parse.h"; sourceTree = "<group>"; };
+		D6D64C181B8584FC00A8A813 /* AppDelegate+Parse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Parse.m"; sourceTree = "<group>"; };
+		D6D64C1A1B85850D00A8A813 /* UserProfileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfileManager.h; sourceTree = "<group>"; };
+		D6D64C1B1B85850D00A8A813 /* UserProfileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileManager.m; sourceTree = "<group>"; };
+		D6D64C1F1B85857500A8A813 /* UserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserProfileViewController.h; path = Profile/UserProfileViewController.h; sourceTree = "<group>"; };
+		D6D64C201B85857500A8A813 /* UserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserProfileViewController.m; path = Profile/UserProfileViewController.m; sourceTree = "<group>"; };
+		D6D64C221B85858E00A8A813 /* EMRobotChatTextBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMRobotChatTextBubbleView.h; sourceTree = "<group>"; };
+		D6D64C231B85858E00A8A813 /* EMRobotChatTextBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMRobotChatTextBubbleView.m; sourceTree = "<group>"; };
+		D6D64C241B85858E00A8A813 /* EMRotbotChatViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMRotbotChatViewCell.h; sourceTree = "<group>"; };
+		D6D64C251B85858E00A8A813 /* EMRotbotChatViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMRotbotChatViewCell.m; sourceTree = "<group>"; };
+		D6D64C261B85858E00A8A813 /* RobotChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RobotChatViewController.h; sourceTree = "<group>"; };
+		D6D64C271B85858E00A8A813 /* RobotChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RobotChatViewController.m; sourceTree = "<group>"; };
+		D6D64C281B85858E00A8A813 /* RobotManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RobotManager.h; sourceTree = "<group>"; };
+		D6D64C291B85858E00A8A813 /* RobotManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RobotManager.m; sourceTree = "<group>"; };
+		D6D64C2E1B8585A500A8A813 /* UserProfileEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfileEditViewController.h; sourceTree = "<group>"; };
+		D6D64C2F1B8585A500A8A813 /* UserProfileEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileEditViewController.m; sourceTree = "<group>"; };
+		D6D64C311B8585D200A8A813 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "ChatDemo-UI2.0/3rdparty/Parse/Parse.framework"; sourceTree = "<group>"; };
+		D6D64C321B8585D200A8A813 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "ChatDemo-UI2.0/3rdparty/Parse/Bolts.framework"; sourceTree = "<group>"; };
+		D6D64C361B8586D300A8A813 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		EB1975B11ADE0C77002E7E27 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		EB19768A1ADE463D002E7E27 /* chatBar_colorMore_videoCall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chatBar_colorMore_videoCall@2x.png"; sourceTree = "<group>"; };
 		EB19768B1ADE463D002E7E27 /* chatBar_colorMore_videoCallSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chatBar_colorMore_videoCallSelected@2x.png"; sourceTree = "<group>"; };
@@ -893,6 +924,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6D64C371B8586D300A8A813 /* Accounts.framework in Frameworks */,
+				D6D64C351B8586CA00A8A813 /* Social.framework in Frameworks */,
 				90C642491B09CAC400E1E6C9 /* libEaseMobClientSDK.a in Frameworks */,
 				C035E8151AEA40F400283EE9 /* CoreData.framework in Frameworks */,
 				EB1975B21ADE0C77002E7E27 /* libc++.dylib in Frameworks */,
@@ -908,7 +941,9 @@
 				902DEC551931D934006CA75E /* libresolv.dylib in Frameworks */,
 				3C3527451931D37900385240 /* SystemConfiguration.framework in Frameworks */,
 				90F1BED51930495800121AEC /* MobileCoreServices.framework in Frameworks */,
+				D6D64C341B8585D200A8A813 /* Bolts.framework in Frameworks */,
 				90F1BED11930493200121AEC /* libiconv.dylib in Frameworks */,
+				D6D64C331B8585D200A8A813 /* Parse.framework in Frameworks */,
 				90F1BECF1930492B00121AEC /* AddressBook.framework in Frameworks */,
 				90F1BECD1930492300121AEC /* CFNetwork.framework in Frameworks */,
 				90F1BECB1930491D00121AEC /* libz.dylib in Frameworks */,
@@ -937,8 +972,8 @@
 		3C16149C1973D1A600564BF5 /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
-				D25787361B43EC5F00B0E69F /* RobotManager.h */,
-				D25787371B43EC5F00B0E69F /* RobotManager.m */,
+				D6D64C1A1B85850D00A8A813 /* UserProfileManager.h */,
+				D6D64C1B1B85850D00A8A813 /* UserProfileManager.m */,
 				90985E461A8A08D400976DD6 /* InvitationManager.h */,
 				90985E471A8A08D400976DD6 /* InvitationManager.m */,
 			);
@@ -1223,6 +1258,9 @@
 		90911026192EEA70008A48AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D6D64C361B8586D300A8A813 /* Accounts.framework */,
+				D6D64C311B8585D200A8A813 /* Parse.framework */,
+				D6D64C321B8585D200A8A813 /* Bolts.framework */,
 				90C640CC1B09AAB300E1E6C9 /* libEaseMobClientSDK.a */,
 				EB1975B11ADE0C77002E7E27 /* libc++.dylib */,
 				EBF955E21ADD17700087E035 /* AVFoundation.framework */,
@@ -1256,8 +1294,8 @@
 		9091102D192EEA70008A48AA /* ChatDemo-UI2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				3CBF90BC19302F5000AD68AE /* Custom */,
 				90911120192EEBB8008A48AA /* Class */,
+				3CBF90BC19302F5000AD68AE /* Custom */,
 				90911056192EEAED008A48AA /* 3rdparty */,
 				909110E4192EEAED008A48AA /* Category */,
 				90911039192EEA70008A48AA /* Images.xcassets */,
@@ -1322,6 +1360,8 @@
 		909110E4192EEAED008A48AA /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				D6D64C141B8584E300A8A813 /* UIImageView+HeadImage.m */,
+				D6D64C151B8584E300A8A813 /* UIImageView+HeadImage.h */,
 				909110E5192EEAED008A48AA /* NSDate+Category.h */,
 				909110E6192EEAED008A48AA /* NSDate+Category.m */,
 				909110E7192EEAED008A48AA /* NSDateFormatter+Category.h */,
@@ -1341,6 +1381,9 @@
 		90911120192EEBB8008A48AA /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				D6D64C1E1B85855800A8A813 /* Profile */,
+				D6D64C171B8584FC00A8A813 /* AppDelegate+Parse.h */,
+				D6D64C181B8584FC00A8A813 /* AppDelegate+Parse.m */,
 				D25787391B43EC7000B0E69F /* Robot */,
 				28BFD62F1B01D40500D0ADEC /* Chatroom */,
 				EB3CC39E1ACD343D00FB8662 /* Call */,
@@ -1369,6 +1412,8 @@
 		90911125192EEBB8008A48AA /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				D6D64C2E1B8585A500A8A813 /* UserProfileEditViewController.h */,
+				D6D64C2F1B8585A500A8A813 /* UserProfileEditViewController.m */,
 				D2BF98B11AEDD780009E0D5C /* EditNicknameViewController.h */,
 				D2BF98B21AEDD780009E0D5C /* EditNicknameViewController.m */,
 				9091112D192EEC0F008A48AA /* SettingsViewController.h */,
@@ -1651,10 +1696,27 @@
 		D25787391B43EC7000B0E69F /* Robot */ = {
 			isa = PBXGroup;
 			children = (
+				D6D64C221B85858E00A8A813 /* EMRobotChatTextBubbleView.h */,
+				D6D64C231B85858E00A8A813 /* EMRobotChatTextBubbleView.m */,
+				D6D64C241B85858E00A8A813 /* EMRotbotChatViewCell.h */,
+				D6D64C251B85858E00A8A813 /* EMRotbotChatViewCell.m */,
+				D6D64C261B85858E00A8A813 /* RobotChatViewController.h */,
+				D6D64C271B85858E00A8A813 /* RobotChatViewController.m */,
+				D6D64C281B85858E00A8A813 /* RobotManager.h */,
+				D6D64C291B85858E00A8A813 /* RobotManager.m */,
 				D257873A1B43EC7000B0E69F /* RobotListViewController.h */,
 				D257873B1B43EC7000B0E69F /* RobotListViewController.m */,
 			);
 			path = Robot;
+			sourceTree = "<group>";
+		};
+		D6D64C1E1B85855800A8A813 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D6D64C1F1B85857500A8A813 /* UserProfileViewController.h */,
+				D6D64C201B85857500A8A813 /* UserProfileViewController.m */,
+			);
+			name = Profile;
 			sourceTree = "<group>";
 		};
 		EB3CC39E1ACD343D00FB8662 /* Call */ = {
@@ -2272,6 +2334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6D64C211B85857500A8A813 /* UserProfileViewController.m in Sources */,
 				90A7061F1A8B63B200376154 /* PSTGridLayoutSection.m in Sources */,
 				90A706111A8B63B200376154 /* UIImageView+EMWebCache.m in Sources */,
 				9003D8A11939D8D000DC38A4 /* EMChatImageBubbleView.m in Sources */,
@@ -2310,6 +2373,7 @@
 				90A706141A8B63B200376154 /* PSTCollectionView.m in Sources */,
 				90A7061E1A8B63B200376154 /* PSTGridLayoutRow.m in Sources */,
 				9003D89F1939D8D000DC38A4 /* EMChatAudioBubbleView.m in Sources */,
+				D6D64C191B8584FC00A8A813 /* AppDelegate+Parse.m in Sources */,
 				90A7061A1A8B63B200376154 /* PSTCollectionViewLayout.m in Sources */,
 				9003D8A01939D8D000DC38A4 /* EMChatBaseBubbleView.m in Sources */,
 				3C9DDAB4193871D8007C765A /* EMSearchDisplayController.m in Sources */,
@@ -2320,9 +2384,11 @@
 				9003D9121939D8D000DC38A4 /* ContactsViewController.m in Sources */,
 				90A7060A1A8B63B200376154 /* MKAnnotationView+EMWebCache.m in Sources */,
 				90A705FF1A8B63B200376154 /* MWTapDetectingImageView.m in Sources */,
+				D6D64C2D1B85858E00A8A813 /* RobotManager.m in Sources */,
 				9003D8761939D8D000DC38A4 /* DXRecordView.m in Sources */,
 				3C914D8519514BBD0002DAD3 /* ContactSelectionViewController.m in Sources */,
 				283403091A9EBB8200B7DE9B /* GroupSubjectChangingViewController.m in Sources */,
+				D6D64C2C1B85858E00A8A813 /* RobotChatViewController.m in Sources */,
 				9003D9151939D8D000DC38A4 /* ApplyFriendCell.m in Sources */,
 				3C6BBA091941A58C00A64684 /* XHMessageTextView.m in Sources */,
 				90133E611972D11000C49B56 /* NSString+Valid.m in Sources */,
@@ -2345,6 +2411,7 @@
 				90C641671B09ACFD00E1E6C9 /* amrFileCodec.mm in Sources */,
 				90A705FB1A8B63B200376154 /* MWGridCell.m in Sources */,
 				90985E481A8A08D400976DD6 /* InvitationManager.m in Sources */,
+				D6D64C1C1B85850D00A8A813 /* UserProfileManager.m in Sources */,
 				9003D86F1939D8D000DC38A4 /* ChatSendHelper.m in Sources */,
 				909308BF19604821005013BD /* EmojiEmoticons.m in Sources */,
 				90A706041A8B63B200376154 /* EMSDWebImageCompat.m in Sources */,
@@ -2357,6 +2424,7 @@
 				9003D8A71939D8D000DC38A4 /* EMChatViewCell.m in Sources */,
 				90A705FA1A8B63B200376154 /* MWCaptionView.m in Sources */,
 				90A706191A8B63B200376154 /* PSTCollectionViewItemKey.m in Sources */,
+				D6D64C2B1B85858E00A8A813 /* EMRotbotChatViewCell.m in Sources */,
 				9003D8A51939D8D000DC38A4 /* EMChatTimeCell.m in Sources */,
 				90A7061B1A8B63B200376154 /* PSTCollectionViewUpdateItem.m in Sources */,
 				3C11304E195AFFDD00ED1D0D /* EMChatVideoBubbleView.m in Sources */,
@@ -2366,7 +2434,8 @@
 				90A706021A8B63B200376154 /* DACircularProgressView.m in Sources */,
 				3C3EB2FF195465D100E1AE9E /* PublicGroupDetailViewController.m in Sources */,
 				90A705FD1A8B63B200376154 /* MWPhoto.m in Sources */,
-				D25787381B43EC5F00B0E69F /* RobotManager.m in Sources */,
+				D6D64C161B8584E300A8A813 /* UIImageView+HeadImage.m in Sources */,
+				D6D64C2A1B85858E00A8A813 /* EMRobotChatTextBubbleView.m in Sources */,
 				90911137192EEC91008A48AA /* LoginViewController.m in Sources */,
 				90911119192EEAED008A48AA /* NSDate+Category.m in Sources */,
 				90C641601B09ACFD00E1E6C9 /* EMAudioPlayerUtil.m in Sources */,
@@ -2383,6 +2452,7 @@
 				90A706061A8B63B200376154 /* EMSDWebImageDownloader.m in Sources */,
 				3C13D94B1A12095D00903622 /* GroupBansViewController.m in Sources */,
 				90CE5C121B43C8E500810187 /* AppDelegate+EaseMobDebug.m in Sources */,
+				D6D64C301B8585A500A8A813 /* UserProfileEditViewController.m in Sources */,
 				28BFD6371B01D40500D0ADEC /* ChatroomListViewController.m in Sources */,
 				9003D8A61939D8D000DC38A4 /* EMChatViewBaseCell.m in Sources */,
 				90A7060C1A8B63B200376154 /* UIButton+EMWebCache.m in Sources */,
@@ -2473,7 +2543,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -2506,7 +2576,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -2529,6 +2599,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/ChatDemo-UI2.0/3rdparty",
+					"$(PROJECT_DIR)/ChatDemo-UI2.0/3rdparty/Parse",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChatDemo-UI2.0/ChatDemo-UI2.0-Prefix.pch";
@@ -2573,6 +2644,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/ChatDemo-UI2.0/3rdparty",
+					"$(PROJECT_DIR)/ChatDemo-UI2.0/3rdparty/Parse",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChatDemo-UI2.0/ChatDemo-UI2.0-Prefix.pch";
