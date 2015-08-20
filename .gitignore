@@ -173,3 +173,5 @@ xcuserdata
 # ...none. Everything is now explained.
 
 .ruby-version
+EaseMobSDK/lib/
+
